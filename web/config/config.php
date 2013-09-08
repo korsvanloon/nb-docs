@@ -44,7 +44,7 @@ c::set('url', '/');
  
 */
 
-c::set('url', 'http://docs.noordse-beweging.nl');
+c::set('url', 'http://docs.local');
 
 
 /* 

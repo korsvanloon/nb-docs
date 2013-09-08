@@ -38,18 +38,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
  
 </IfModule>
-
-AuthType Basic
-AuthName "Restricted Documentation (WIP)"
-# (Following line optional)
-AuthBasicProvider file
-AuthUserFile /home/kors/passwords
-Require user kors
-
-
-# Additional recommended values
-# Remove comments for those you want to use. 
-# 
-# AddDefaultCharset UTF-8
-#
-# php_flag short_open_tag on 

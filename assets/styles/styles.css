@@ -1,9 +1,9 @@
-body {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  background: #fff;
-  color: #444;
+.body {
+  background: url(../images/tweed.png);
+}
+.content {
+  background-color:white;
+  box-shadow: 1px 0px 10px 0 #000, -1px 0px 10px 0 #000;
 }
 .striped {
   text-decoration:line-through;

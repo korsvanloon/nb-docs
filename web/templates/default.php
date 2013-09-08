@@ -11,7 +11,7 @@
   <?php echo css('assets/styles/styles.css') ?>
   <?php echo css('assets/css/bootstrap.min.css') ?>
 
-</head><body>
+</head><body class="body">
 
 <div class="row">
     <?php snippet('breadcrumbs', ['base_url' => 'http://localhost/~korsvanloon/docs']); ?>
@@ -27,7 +27,7 @@
       <article>
         <?php echo kirbytext($page->text()) ?>
       </article>
-    
+        <?php snippet('pagination') ?>
     </section>
     
 </div>
